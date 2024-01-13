@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+a{
+    color: inherit;
+}
+header{
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.logo{
+    margin-right: auto;
+}
+.header__nav{
+    margin-right: 60px;
+}
+.header_panel{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 20px;
+}
+nav ul li:last-child{
+    margin-right: 0;
+}
+.header__search{
+    padding-top: 3px;
+}
+.header__search_login{
+    margin-right: 30px;
+}
+.hero{
+    padding-top: 60px;
+}
+.hero__container{
+    display: flex;
+    justify-content: space-between;
+}
+.hero__left{
+    padding-top: 70px;
+    width: 400px;
+}
+.hero__right{
+    display: flex;
+    justify-content: flex-end;
+}
+.hero__left h1{
+    font-size: 60px;
+    width: 450px;
+}
+.hero__left p{
+    padding-top: 30px;
+    font-size: 18px;
+    color: #85859B;
+}
+.hero__btn{
+    margin-top: 30px;
+    padding: 23px 89px;
+    border: 1px solid #7875FE;
+    font-size: 23px;
+    color: #7875FE;
+}
+.hero__btn:hover{
+    background-color: #7875FE;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
